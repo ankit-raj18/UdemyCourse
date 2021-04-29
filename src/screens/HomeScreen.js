@@ -23,6 +23,10 @@ const HomeScreen = ({navigation}) => {
       title='Go to Counter demo' 
       />
       <Button   
+      onPress={()=> navigation.navigate('Counter')}
+      title='Go to Counter Reducer demo' 
+      />
+      <Button   
       onPress={()=> navigation.navigate('Color')}
       title='Go to Color demo' 
       />
@@ -33,6 +37,14 @@ const HomeScreen = ({navigation}) => {
       <Button   
       onPress={()=> navigation.navigate('SquareReducer')}
       title='Go to SquareReducer demo' 
+      />
+      <Button   
+      onPress={()=> navigation.navigate('Text')}
+      title='Go to Text demo' 
+      />
+      <Button   
+      onPress={()=> navigation.navigate('Box')}
+      title='Go to Box demo' 
       />
 
       </View>
